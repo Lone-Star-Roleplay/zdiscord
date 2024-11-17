@@ -11,9 +11,9 @@
 const LanguageLocaleCode = "en";
 
 // PUBLIC VALUES
-const FiveMServerName = "My FiveM Server";
-const DiscordInviteLink = "https://discord.gg/fivem";
-const FiveMServerIP = "127.0.0.1";
+const FiveMServerName = "Lone Star Roleplay";
+const DiscordInviteLink = "https://discord.gg/w9r66R86Nn";
+const FiveMServerIP = "http://45.144.225.27:30120/";
 
 // This spams the console, only enable for testing if needed
 const DebugLogs = false;
@@ -26,25 +26,25 @@ const DebugLogs = false;
 const EnableDiscordBot = true;
 
 // DISCORD BOT
-const DiscordBotToken = "CHANGE";
-const DiscordGuildId = "000000000000000000";
+const DiscordBotToken = process.env.DISCORD_TOKEN;
+const DiscordGuildId = "1278201152663715860";
 
 // STAFF CHAT
 const EnableStaffChatForwarding = false;
-const DiscordStaffChannelId = "000000000000000000";
+const DiscordStaffChannelId = "1304713400995024906";
 const AdditionalStaffChatRoleIds = [
     // "000000000000000",
 ];
 
 // WHITELISTING / ALLOWLISTING
-const EnableWhitelistChecking = true;
+const EnableWhitelistChecking = false;
 const DiscordWhitelistRoleIds = "000000000000000000, 000000000000000000";
 
 // SLASH COMMANDS / DISCORD PERMISSIONS
 const EnableDiscordSlashCommands = true;
-const DiscordModRoleId = "000000000000000000";
-const DiscordAdminRoleId = "000000000000000000";
-const DiscordGodRoleId = "000000000000000000";
+const DiscordModRoleId = "0";
+const DiscordAdminRoleId = "0";
+const DiscordGodRoleId = "1304723316711624704";
 
 // DISCORD BOT STATUS
 const EnableBotStatusMessages = true;
@@ -68,13 +68,13 @@ const SaveScreenshotsToServer = false;
  * WEBHOOK LOGGING SETTINGS
 **************************/
 
-const EnableLoggingWebhooks = false;
+const EnableLoggingWebhooks = true;
 const LoggingWebhookName = "zLogs";
 // put "&" in front of the id if you're to ping a role
-const LoggingAlertPingId = "&000000000000000000";
+const LoggingAlertPingId = "&1289382274407600229";
 // example: "bank": "https://discord.com/webhook/...",
 const LoggingWebhooks = {
-    "example": "https://discord.com/api/webhooks/000000000/sEcRRet-ToK3n_5tUfF_tH8t_YUo-S40u1d-n07-sHar3",
+    "zdiscord": "https://discord.com/api/webhooks/1304723727841361930/9MJ3OwVB0oqy2_ivTP3awmlWTU_QtWBnYvYjn5swNyzzGbRAw7d1UmaCc26fddG4UgSL",
 };
 
 
