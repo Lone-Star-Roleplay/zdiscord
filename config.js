@@ -26,7 +26,7 @@ const DebugLogs = false;
 const EnableDiscordBot = true;
 
 // DISCORD BOT
-const DiscordBotToken = process.env.DISCORD_TOKEN;
+const DiscordBotToken = GetConvar("ps:discordBotToken", "");
 const DiscordGuildId = "1278201152663715860";
 
 // STAFF CHAT
